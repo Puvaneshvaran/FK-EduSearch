@@ -1,0 +1,15 @@
+For Admin
+Email: admin@gmail.com
+Password: admin
+
+---------------------------------
+
+For Staff
+Email: staff@gmail.com
+Password: staff
+
+---------------------------------
+
+For User
+Email: user@gmail.com
+Password: user
