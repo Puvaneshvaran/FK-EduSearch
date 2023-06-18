@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 07, 2023 at 12:10 AM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 8.1.6
+-- Generation Time: Jun 18, 2023 at 07:07 AM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -32,18 +32,21 @@ CREATE TABLE `user` (
   `username` varchar(225) NOT NULL,
   `email` varchar(225) NOT NULL,
   `password` varchar(500) NOT NULL,
-  `role` varchar(225) NOT NULL,
+  `role` int(10) NOT NULL,
   `date` varchar(225) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `user`
 --
 
 INSERT INTO `user` (`id`, `username`, `email`, `password`, `role`, `date`) VALUES
-(1, 'Admin', 'admin@gmail.com', '$2y$10$2.fSmP8DIdEufpf6C/RLd.8v9qG1hvhWG9IxZw5r8xTlVB02d8SFq', 'Admin', '06-07-2023'),
-(2, 'Staff', 'staff@gmail.com', '$2y$10$xXZAQryrpcIBaSO86J/O5uSdwilMhyQJZRUlF98sQ4gAT5Mu49Xe2', 'Staff', '06-07-2023'),
-(3, 'User', 'user@gmail.com', '$2y$10$KBEho20O08NW90xlwJDH4.t8qVELlT1CehYksTs5Hpg/ioJikJ/fC', 'User', '06-07-2023');
+(6, 'Anas', 'anas@anas', '$2y$10$T3PEs2zob6sUnDymZSfm0O9w/Zx1mi2lw7dG0ojMxZrKQtZU7N/f6', 4, '06-06-2023'),
+(7, 'moh', 'moh@hhss', '$2y$10$P2ZAIUwlVYAxC8s/ckslGulukHBT72Ah6/m9y.FGmIK8x3q22WTlC', 0, '06-08-2023'),
+(8, 'puva', 'puva@puva.com', '$2y$10$ZxOYTzTPvZ6lTgXrG42aJ.GysGINSR.qrE7v.pQm4wMfnaZWl3fQa', 4, '06-08-2023'),
+(62, 'momo', 'mohammedgha037@gmail.com', '$2y$10$VAZSbkfO.Zx8tfWzXxffDOhWhJbuZfPSOsJIQzqEfZHG6xQPco/Ta', 1, '06-18-2023'),
+(64, 'Dummy', 'anasalzumor@gmail.com', '$2y$10$.yoyvJnpOLD3zgVylR6c9eIwQQnRP9hgCL/4bqeZzLDpve9w73yLO', 1, '06-18-2023'),
+(65, 'momo', 'tmcfashion1@gmail.com', '$2y$10$31f0WITa1Igoq..1AJzDXeqv5F3.GehUM2kF6xXRlUL3vbHE3qjle', 3, '06-18-2023');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +66,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
