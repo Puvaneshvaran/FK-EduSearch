@@ -1,0 +1,17 @@
+--> connect to their module
+
+report - connect to createuser.php
+schedule posting - connect to calendar.php
+complaint - connect to index.php
+
+--> discussion board
+ follow steam
+
+student
+username: yoong
+password: student1
+
+staff
+username: wan
+password: staff
+ 

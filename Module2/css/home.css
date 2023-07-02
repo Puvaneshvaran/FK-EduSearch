@@ -1,0 +1,42 @@
+/* 
+Color Codes being used
+#FFE5B4 - peach
+#ADD8E6 - Light blue
+#C8A2C8 - lilac
+#000000 - black
+*/
+
+.logo {
+    height: 50px;
+    width: auto;
+  }
+
+  header {
+    padding: 20px 0;
+    background-color: #000000;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  #profile-picture-frame {
+    border: 2px dashed #ccc;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  #profile-picture-frame img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
