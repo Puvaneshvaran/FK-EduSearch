@@ -1,0 +1,12 @@
+table, th, td{
+    border: 1px solid black;
+    width: 20%;
+    margin-top: 10%;
+    height: 50%;
+    margin-left: 28%;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+}

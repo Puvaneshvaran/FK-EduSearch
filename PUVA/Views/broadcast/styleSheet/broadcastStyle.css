@@ -1,0 +1,93 @@
+#title{
+    text-align: center;
+}
+
+.logo{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 30%;
+}
+
+.nav_top{
+    background-color: rgb(51, 185, 152);
+    overflow: hidden;
+}
+
+#username, #userlogo{
+    float: right;
+}
+
+#userlogo{
+    width: 50px;
+    height: 50px;
+}
+
+.nav_top a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav_top a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.nav_top a.active{
+    background-color: #939997;
+    color: white;
+}
+
+div.container_1{
+	margin: auto;
+	width: 100%;
+	padding: 30px;
+	text-align: left;
+}
+
+input#titleName{
+	width: 80%;
+	height: 30px;
+	font-size: large;
+}
+
+.submit{
+	height: 100px;
+	position: relative;
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+
+  .button {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: rgb(41, 134, 114);
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #71bea7}
+  
+  .button:active {
+	background-color: #20e0a7;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
