@@ -1,0 +1,29 @@
+.center{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+}
+.table_center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    width: 40%;
+}
+
+.table-container1{
+    width: 400px;
+    height: 400px;
+    border: 20px solid black;
+    overflow: auto;
+  }
+
+h1{
+    text-align: center;
+  }
